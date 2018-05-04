@@ -3,7 +3,7 @@ basicSearch
 
 basicSearch implements two components of modern day information retrieval systems - an inverted list file structure and query matching using the vector space model.
 
-The "offline" program stores document keywords in an AVL tree and then writes this information to disk in an [inverted index format](https://en.wikipedia.org/wiki/Inverted_index) for efficient retrieval.
+The "offline" program stores document keywords in an AVL tree and then writes this information to disk in an inverted index list for efficient retrieval.
 Queries or searches can then be made using the "online" program, which filters and then ranks documents according to the [vector space model](https://en.wikipedia.org/wiki/Vector_space_model).
 
 This program was written for an information retrieval course, CIS*4430.
